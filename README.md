@@ -1,35 +1,24 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-
-**!! *Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto)*. !!** 
-
-Paradigmas:
- - Funcional
- - Logico
- - SMA
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2022.1_G1_Logico_ProjetoRoteirosAereos*. !!**
- 
- (Apague esses comentários)
-
-# NomeDoProjeto
+# Seleção Artificial
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
-**Nro do Grupo**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Nro do Grupo**: 04<br>
+**Paradigma**: SMA<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0096991  |  Álvaro Leles |
+| 18/0100831  |  Gabriel Avelino |
+| 18/0145088  |  Gabriel Bonifácio |
+| 18/0101617  |  Guilherme de Morais |
+| 18/0102087  |  Ian Fillipe |
+| 18/0113666  |  Ítalo Guimarães |
+| 18/0102656  |  Ítalo Vinícius |
+| 20/0043111  |  Ricardo De Castro |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
-Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
+
+O projeto que desenvolvemos se trata de um sistema de seleção artifical em um ambiente caótico. Dessa forma, a ideia principal é poder controlar o oxigêncio e temperatura de agentes com diferentes características para podermos fazer a identificação dos agentes mais resistentes dos que tem menos resistência.
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
@@ -59,15 +48,38 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Fulano  |  Programação dos Fatos da Base de Conhecimento Lógica | Boa |
+| Álvaro Leles  | A especificar  | A especificar |
+| Gabriel Avelino  | A especificar  | A especificar |
+| Gabriel Bonifácio  | | A especificar  | A especificar |
+| Guilherme de Morais  | A especificar  | A especificar |
+| Ítalo Alves  | A especificar  | A especificar |
+| Ian Fillipe | A especificar  | A especificar |
+| Ítalo Vinícius | A especificar  | A especificar |
+| Ricardo Castro  | A especificar  | A especificar |
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui.
 (i) Lições Aprendidas;
+
+- 
+- 
+
 (ii) Percepções;
+
+-
+-
+
 (iii) Contribuições e Fragilidades, e
+
+-
+-
+
 (iV) Trabalhos Futuros.
 
+-
+-
+
 ## Fontes
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda, fontes de leitura complementares.
+
+- [Vídeos disponibilizados no moodle UnB da discplina](https://aprender3.unb.br/course/view.php?id=14113)
+
