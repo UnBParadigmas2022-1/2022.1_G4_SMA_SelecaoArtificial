@@ -71,3 +71,64 @@ def modelo_desenho(agent):
                      "text_color": "Black"}
 
     return portrayal
+
+
+canvas_elementos = mesa.visualization.CanvasGrid(modelo_desenho, 20, 20, 500, 500)
+fome_grafico = mesa.visualization.ChartModule([{"Label": "Fome", "Color": cores['fome']}])
+radiacao_grafico = mesa.visualization.ChartModule([{"Label": "Radiação", "Color": cores['radiacao']}])
+doenca_grafico = mesa.visualization.ChartModule([{"Label": "Doença", "Color": cores['doenca']}])
+frio_grafico = mesa.visualization.ChartModule([{"Label": "Frio", "Color": cores['frio']}])
+calor_grafico = mesa.visualization.ChartModule([{"Label": "Calor", "Color": cores['calor']}])
+toxico_grafico = mesa.visualization.ChartModule([{"Label": "Tóxico", "Color": cores['toxico']}])
+
+agent_bar = mesa.visualization.BarChartModule(
+    [{"Label": "Vivos", "Color": "#AA0000"}],
+    scope="agent",
+    sorting="ascending",
+    sort_by="vida",
+)
+
+model_params = {
+    # Slidebar
+    "num_resistentes": mesa.visualization.Slider(
+        name="Número de resistentes",
+        min_value=0,
+        max_value=40,
+        step=1,
+        value=30,
+    ),
+    "num_pragas": mesa.visualization.Slider(
+        name="Número de pragas",
+        min_value=0,
+        max_value=40,
+        step=1,
+        value=10,
+    ),
+    "vida": mesa.visualization.Slider(
+        name="Vida",
+        min_value=0,
+        max_value=50,
+        step=1,
+        value=20,
+    ),
+    "width": 20,
+    "height": 20,
+}
+
+server = mesa.visualization.ModularServer(
+    Modelo,
+    [
+        canvas_elementos,
+        vidaMediaResistentes,
+        quantidadeResistentes,
+        fome_grafico,
+        radiacao_grafico,
+        doenca_grafico,
+        frio_grafico,
+        calor_grafico,
+        toxico_grafico,
+    ],
+    "Seleção artificial",
+    
+    model_params,
+)
