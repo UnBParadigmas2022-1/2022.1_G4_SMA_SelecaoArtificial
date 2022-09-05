@@ -25,11 +25,16 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
 
 ## Instalação 
 **Linguagens**: Python<br>
-**Tecnologias**: xxxxxx<br>
+**Tecnologias**: Mesa<br>
 (É necessário para rodar esta aplicação Python e recomenda-se rodá-la no ambiente Ubuntu ou utilizando no Windows o WSL)
 Para instalar as dependências no Ubuntu, basta digitar o comando:
 ```
 pip install -r requirements.txt
+```
+Para rodar o código após ter instalado o ambiente digite os comandos abaixo:
+
+```
+mesa runserver
 ```
 
 ## Uso 
