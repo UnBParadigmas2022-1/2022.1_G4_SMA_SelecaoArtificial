@@ -24,11 +24,13 @@ O projeto que desenvolvemos se trata de um sistema de seleção artifical em um 
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
+**Linguagens**: Python<br>
 **Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!
+(É necessário para rodar esta aplicação Python e recomenda-se rodá-la no ambiente Ubuntu ou utilizando no Windows o WSL)
+Para instalar as dependências no Ubuntu, basta digitar o comando:
+```
+pip install -r requirements.txt
+```
 
 ## Uso 
 Explique como usar seu projeto.
