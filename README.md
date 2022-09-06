@@ -109,7 +109,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui.
 - Gostamos de explorar esse paradigma, visto que é bastante diferente de muitas coisas que já experimentamos desenvolver na universidade;
 - Achamos que é bastante prático;
 - Existe muitas aplicações interessantes para esse paradigma;
-- Entendemos a importância de um paradigma como o de Seleção Artificial em diversos âmbitos da vida real. Sua aplicação pode colaborar de diversas formas, e foi o paradigma que mais percebemos ser diferentes dos demais que também fizemos. Tivemos uma certa dificuldade em alguns pontos, mas uma maior facilidade em outros, assim como tivemos essa dualidade em outros projetos.
+- Entendemos a importância de um paradigma como o de Sistemas Multiagentes em diversos âmbitos da vida real. Sua aplicação pode colaborar de diversas formas, e foi o paradigma que mais percebemos ser diferentes dos demais que também fizemos. Tivemos uma certa dificuldade em alguns pontos, mas uma maior facilidade em outros, assim como tivemos essa dualidade em outros projetos.
 
 (iii) Contribuições e Fragilidades, e
 
