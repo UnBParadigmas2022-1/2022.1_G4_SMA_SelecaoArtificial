@@ -2,6 +2,7 @@
     Funções auxiliares para verificar posições para os Agentes
 """
 
+# Gabriel B.
 
 def posicaoVazia(self, posicoes_ocupadas):
     x = self.random.randrange(self.grid.width)

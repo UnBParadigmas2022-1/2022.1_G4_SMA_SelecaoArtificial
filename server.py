@@ -1,6 +1,8 @@
 import mesa
 from Modelo import Modelo
 
+# Guilherme
+
 cores = {
     "fome": "#FF0000",
     "radiacao": "#0000FF",
@@ -44,6 +46,7 @@ def quantidadeResistentes(model):
     resistentes = [a for a in model.schedule.agents if 'Resistente' in a.tipo]
     return f"Quantidade de resistentes: {len(resistentes)}"
 
+# Ian
 
 def modelo_desenho(agent):
     """
@@ -54,11 +57,11 @@ def modelo_desenho(agent):
     
     if 'Resistente' in agent.tipo:
         portrayal = {"Shape": "circle",
-                     "Filled": "true",
+                     "Filled": "true", 
                      "r": 0.8,
                      "Layer": 0,
                      "Color": cores[agent.tipo.replace('Resistente', '')],
-                     "text": agent.tipo[:2].upper(),
+                     "text": agent.tipo[:2].upper(), # Texto
                      "text_color": "Black"}
     else:
         portrayal = {"Shape": "rect",
@@ -81,12 +84,6 @@ frio_grafico = mesa.visualization.ChartModule([{"Label": "Frio", "Color": cores[
 calor_grafico = mesa.visualization.ChartModule([{"Label": "Calor", "Color": cores['calor']}])
 toxico_grafico = mesa.visualization.ChartModule([{"Label": "Tóxico", "Color": cores['toxico']}])
 
-agent_bar = mesa.visualization.BarChartModule(
-    [{"Label": "Vivos", "Color": "#AA0000"}],
-    scope="agent",
-    sorting="ascending",
-    sort_by="vida",
-)
 
 model_params = {
     # Slidebar

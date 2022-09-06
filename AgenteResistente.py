@@ -2,6 +2,7 @@ import mesa
 
 from utils import *
 
+# Ricardo
 
 class AgenteResistente(mesa.Agent):
     """
@@ -39,6 +40,8 @@ class AgenteResistente(mesa.Agent):
             da sua resistência ao redor.
         """
         self.operate()
+
+# Ítalo A. 
 
     def operate(self) -> None:
         """

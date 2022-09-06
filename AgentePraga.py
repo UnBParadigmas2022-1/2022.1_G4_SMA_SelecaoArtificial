@@ -2,6 +2,7 @@ import mesa
 
 from utils import *
 
+# Álvaro
 
 class AgentePraga(mesa.Agent):
     """
@@ -41,5 +42,5 @@ class AgentePraga(mesa.Agent):
         try:
             self.model.grid.move_to_empty(self)
         except Exception as e:
-            print('Erro ao mover agente resistente')
+            print('Erro ao mover agente praga')
             pass

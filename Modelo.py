@@ -4,7 +4,7 @@ from AgentePraga import AgentePraga
 from AgenteResistente import AgenteResistente
 from utils import *
 
-
+# Ítalo V.
 def totalCaracteristica(model, caracteristica):
     """
     Retorna a soma de todos os valores de uma característica
@@ -29,7 +29,7 @@ class Modelo(mesa.Model):
             agent_reporters={"Tipo": lambda a: a.tipo, "Posicao": lambda a: a.pos},
         )
 
-
+# Gabriel A.
         # Posições já ocupadas
         posicoes_ocupadas = []
 
